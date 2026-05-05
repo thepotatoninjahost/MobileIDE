@@ -1,0 +1,35 @@
+# Built files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Java
+*.class
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local config
+local.properties
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# R8 / ProGuard
+*.r8
+*.mapping
+
+# Keep gradle wrapper JAR
+!gradle/wrapper/gradle-wrapper.jar
